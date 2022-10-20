@@ -1,0 +1,198 @@
+
+.navbar-inverse {
+    background-color: #603bff;
+}
+
+*{
+    font-family: 'Russo One', 'Do Hyeon';
+    font-weight: 500;
+
+}
+
+h2{
+    font-family: 'Russo One', 'Do Hyeon';
+    font-weight: 900;
+}
+
+h3{
+    font-family: 'Russo One', 'Do Hyeon';
+    font-weight: 800;
+}
+footer p a{
+    color: white;
+  }
+footer h4{
+    color: #eaff3d;
+}
+
+.d-none{
+    display: none !important;
+}
+
+#spt h3{
+    background-image: url(../img/sprite.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    color: #eaff3d;
+}
+
+.h0{
+    height: 0 !important;
+    overflow: hidden !important;
+    padding: 0 !important; margin: 0 !important;
+}
+
+#mainBanner{
+    background-image: url(../img/sp1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto calc(100% - 10rem);
+    max-height: 700px;
+    height: 0;
+    padding-top: 70%;
+}
+
+.codebox{
+    position: relative;
+    margin-top: 7rem;
+}
+
+.logo{
+    position: absolute;
+    width: 65vw; height: auto;
+    right: 13vw; top: 16vh;
+}
+
+@media(min-width:730px){
+    .logo{
+        width: 55vw; height: auto;
+        right: 16vw; top: 23vh;
+    }
+}
+
+@media(min-width:980px){
+    .logo{
+    width: 35vw; height: auto;
+    right: 29vw; top: 33vh;
+}
+}
+
+.navbar-expanded{
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a {
+    color: white;
+    font-size: 3rem;
+    line-height: 1;
+    padding: 10px 0px;
+    margin: 0px 15px;
+}
+
+#goods{
+    width: 100%;
+}
+
+#weapon .item{
+    width: 340px;
+}
+
+#weapon img{
+    width:340px;
+}
+
+.about-carousel .owl-controls .owl-next {
+    right: 25px;
+}
+
+.caption h3{
+    color: #eaff3d;
+}
+
+.portal{
+    position: relative;
+    display: flex;
+    justify-content: center; align-items: center;
+    left: 0; right: 0;
+    background-color: #2e2e2e;
+}
+
+.spPortal{
+    width: 30vw;
+}
+
+
+@media(min-width:992px){
+    #mainBanner{
+        background-size: contain;
+        height: 700px;
+        padding-top: 0;
+    }
+}
+
+.swiper .caption {
+    padding: 15px;
+    color: white;
+    background-color: rgba(34, 34, 34, 0.6);
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+.swiper .caption h3 {
+    margin: 0;
+  }
+.swiper .caption hr {
+    margin: 5px auto;
+    max-width: 50px;
+  }
+.swiper .caption p {
+    margin: 0;
+  }
+
+  .swiper{
+    width: 340px;
+  }
+  
+  @media(min-width:768px){
+    .swiper{
+        width: 690px;
+    }
+  }
+
+  @media(min-width:1024px){
+    .swiper{
+        width: 1040px;
+    }
+  }
+
+  #code h2{
+    color: #603bff;
+  }
+
+.swiper-slide {
+    width: 340px;
+    font-size: 18px;
+    background: #2e2e2e;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 340px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-pagination{
+    text-align: right;
+  }
+
+  .swiper-pagination-bullet{
+    background-color: white;
+  }
